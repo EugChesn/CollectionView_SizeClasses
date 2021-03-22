@@ -11,8 +11,13 @@
 		7EC0216E2607BF8D00F256BF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0216D2607BF8D00F256BF /* SceneDelegate.swift */; };
 		7EC021702607BF8D00F256BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC0216F2607BF8D00F256BF /* ViewController.swift */; };
 		7EC021732607BF8D00F256BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC021712607BF8D00F256BF /* Main.storyboard */; };
-		7EC021752607BF8F00F256BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EC021742607BF8F00F256BF /* Assets.xcassets */; };
 		7EC021782607BF8F00F256BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7EC021762607BF8F00F256BF /* LaunchScreen.storyboard */; };
+		7EC021862607C0A500F256BF /* PortraitViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EC021842607C0A500F256BF /* PortraitViewCell.swift */; };
+		7EC021872607C0A500F256BF /* PortraitViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EC021852607C0A500F256BF /* PortraitViewCell.xib */; };
+		7EF9A3722607D8EF008D0418 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7EF9A3712607D8EF008D0418 /* Assets.xcassets */; };
+		7EF9A3762607DC6D008D0418 /* LandscapeViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF9A3742607DC6D008D0418 /* LandscapeViewCell.swift */; };
+		7EF9A3772607DC6D008D0418 /* LandscapeViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7EF9A3752607DC6D008D0418 /* LandscapeViewCell.xib */; };
+		7EF9A37A2607DD93008D0418 /* CustomCollectionViewLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF9A3792607DD93008D0418 /* CustomCollectionViewLayout.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,9 +26,14 @@
 		7EC0216D2607BF8D00F256BF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		7EC0216F2607BF8D00F256BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		7EC021722607BF8D00F256BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7EC021742607BF8F00F256BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7EC021772607BF8F00F256BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7EC021792607BF8F00F256BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7EC021842607C0A500F256BF /* PortraitViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PortraitViewCell.swift; sourceTree = "<group>"; };
+		7EC021852607C0A500F256BF /* PortraitViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PortraitViewCell.xib; sourceTree = "<group>"; };
+		7EF9A3712607D8EF008D0418 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7EF9A3742607DC6D008D0418 /* LandscapeViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandscapeViewCell.swift; sourceTree = "<group>"; };
+		7EF9A3752607DC6D008D0418 /* LandscapeViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LandscapeViewCell.xib; sourceTree = "<group>"; };
+		7EF9A3792607DD93008D0418 /* CustomCollectionViewLayout.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewLayout.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,7 +51,6 @@
 			isa = PBXGroup;
 			children = (
 				7EC0216A2607BF8D00F256BF /* CollectionView_SizeClass */,
-				7EC021692607BF8D00F256BF /* Products */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,6 +60,7 @@
 				7EC021682607BF8D00F256BF /* CollectionView_SizeClass.app */,
 			);
 			name = Products;
+			path = ..;
 			sourceTree = "<group>";
 		};
 		7EC0216A2607BF8D00F256BF /* CollectionView_SizeClass */ = {
@@ -59,12 +69,34 @@
 				7EC0216B2607BF8D00F256BF /* AppDelegate.swift */,
 				7EC0216D2607BF8D00F256BF /* SceneDelegate.swift */,
 				7EC0216F2607BF8D00F256BF /* ViewController.swift */,
+				7EF9A37D2607F125008D0418 /* CollectionViewLayout */,
+				7EC021892607C0AB00F256BF /* CollectionViewCells */,
+				7EF9A3712607D8EF008D0418 /* Assets.xcassets */,
 				7EC021712607BF8D00F256BF /* Main.storyboard */,
-				7EC021742607BF8F00F256BF /* Assets.xcassets */,
 				7EC021762607BF8F00F256BF /* LaunchScreen.storyboard */,
 				7EC021792607BF8F00F256BF /* Info.plist */,
+				7EC021692607BF8D00F256BF /* Products */,
 			);
 			path = CollectionView_SizeClass;
+			sourceTree = "<group>";
+		};
+		7EC021892607C0AB00F256BF /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				7EC021842607C0A500F256BF /* PortraitViewCell.swift */,
+				7EC021852607C0A500F256BF /* PortraitViewCell.xib */,
+				7EF9A3742607DC6D008D0418 /* LandscapeViewCell.swift */,
+				7EF9A3752607DC6D008D0418 /* LandscapeViewCell.xib */,
+			);
+			path = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		7EF9A37D2607F125008D0418 /* CollectionViewLayout */ = {
+			isa = PBXGroup;
+			children = (
+				7EF9A3792607DD93008D0418 /* CustomCollectionViewLayout.swift */,
+			);
+			path = CollectionViewLayout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,7 +157,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				7EC021782607BF8F00F256BF /* LaunchScreen.storyboard in Resources */,
-				7EC021752607BF8F00F256BF /* Assets.xcassets in Resources */,
+				7EF9A3772607DC6D008D0418 /* LandscapeViewCell.xib in Resources */,
+				7EC021872607C0A500F256BF /* PortraitViewCell.xib in Resources */,
+				7EF9A3722607D8EF008D0418 /* Assets.xcassets in Resources */,
 				7EC021732607BF8D00F256BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,7 +171,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EF9A37A2607DD93008D0418 /* CustomCollectionViewLayout.swift in Sources */,
 				7EC021702607BF8D00F256BF /* ViewController.swift in Sources */,
+				7EC021862607C0A500F256BF /* PortraitViewCell.swift in Sources */,
+				7EF9A3762607DC6D008D0418 /* LandscapeViewCell.swift in Sources */,
 				7EC0216C2607BF8D00F256BF /* AppDelegate.swift in Sources */,
 				7EC0216E2607BF8D00F256BF /* SceneDelegate.swift in Sources */,
 			);
